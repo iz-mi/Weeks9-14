@@ -27,6 +27,9 @@ public class bubbleBehaviour : MonoBehaviour
         }
     }
 
-
+    void destroyBubble()
+    {
+        Destroy(gameObject);
+    }
 
 }
